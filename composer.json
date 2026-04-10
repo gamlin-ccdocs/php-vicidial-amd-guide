@@ -1,0 +1,31 @@
+{
+    "name": "vicistack/vicidial-amd-guide",
+    "description": "VICIdial AMD Configuration: The Only Guide That Doesn't Waste Your Time",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "vicidial",
+        "amd",
+        "guide"
+    ],
+    "homepage": "https://vicistack.com/blog/vicidial-amd-guide/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\VicidialAmdGuide\\": "src/"
+        }
+    }
+}
